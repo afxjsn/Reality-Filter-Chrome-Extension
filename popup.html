@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reality Filter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 15px;
+            width: 280px;
+            text-align: center;
+        }
+        h3 {
+            margin: 0 0 10px;
+            color: #0073e6;
+        }
+        input {
+            width: 90%;
+            padding: 8px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+        }
+        button {
+            width: 95%;
+            padding: 8px;
+            margin-top: 10px;
+            background-color: #0073e6;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        button:hover {
+            background-color: #005bb5;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 10px;
+        }
+        li {
+            background: white;
+            padding: 8px;
+            margin: 5px 0;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 14px;
+        }
+        .delete-btn {
+            background: none;
+            border: none;
+            color: red;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .delete-btn:hover {
+            color: darkred;
+        }
+    </style>
+</head>
+<body>
+    <h3>Reality Filter</h3>
+    <input type="text" id="original" placeholder="Original Word">
+    <input type="text" id="replacement" placeholder="Replacement Word">
+    <button id="add">Change My World</button>
+    <ul id="list"></ul>
+    <script src="popup.js"></script>
+</body>
+</html>
